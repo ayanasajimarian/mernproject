@@ -1,0 +1,165 @@
+/* General Container Styles */
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004d7a; /* Blue background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.navbarHeading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logoutButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #ff3333;
+}
+
+/* Filters Section Styles */
+.filters {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  background-color: #004d7a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #004d7a;
+}
+
+/* Caregiver List Styles */
+.caregiversList {
+  margin-top: 30px;
+}
+
+.caregiverCard {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.caregiverName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caregiverInfo {
+  margin-top: 5px;
+}
+
+.caregiverButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caregiverButton:hover {
+  background-color: #218838;
+}
+
+/* Booking Modal Styles */
+.formContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  z-index: 100;
+}
+
+.formContainer h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.timePickerContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ampmSelect {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  background-color: #004d7a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #004d7a;
+}
+
+/* Booking Status Styles */
+.bookingStatus {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+  .caregiverCard {
+    padding: 10px;
+  }
+}

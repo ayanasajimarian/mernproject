@@ -1,0 +1,90 @@
+.profile-form-container {
+    max-width: 500px; /* Reduced width for a more compact form */
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 15px; /* Reduced padding for a more compact layout */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif; /* Standard font for better appearance */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #3b5998;
+    margin-bottom: 15px; /* Slightly reduced margin for heading */
+    font-size: 22px; /* Slightly smaller font size */
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Reduced space between form groups */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px; /* Reduced margin for better alignment */
+    color: #333;
+    font-size: 14px; /* Slightly smaller font size for labels */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px 10px; /* Reduced padding for a more compact form */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px; /* Smaller font size */
+    box-sizing: border-box;
+    margin-top: 4px; /* Reduced margin between label and input */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    height: 35px; /* Reduced height for input fields */
+  }
+  
+  textarea {
+    height: 70px; /* Reduced height for textarea */
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 10px 18px; /* Reduced padding for a more compact button */
+    font-size: 14px; /* Smaller font size */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2d4373;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .profile-form-container {
+      padding: 12px; /* Further reduced padding on smaller screens */
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    label {
+      font-size: 12px; /* Smaller font size for labels on smaller screens */
+    }
+  
+    input,
+    textarea {
+      font-size: 12px; /* Smaller font size for inputs and textarea */
+    }
+  
+    button[type="submit"] {
+      padding: 8px 12px; /* Smaller padding on smaller screens */
+    }
+  }
+  

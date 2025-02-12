@@ -1,0 +1,97 @@
+/* Ensure the dashboard container fills the entire screen */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Background color */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Align content in a column */
+  min-height: 100vh; /* Ensures the container covers the entire height of the screen */
+  min-width: 100vw; /* Ensures the container covers the entire width of the screen */
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */
+}
+
+/* Dashboard Header Styles */
+.dashboard-header {
+  background-color: #004d7a; /* Dark blue background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0; /* Prevent header from shrinking */
+  width: 100%; /* Ensure header takes full width */
+}
+
+/* Add small margin to create a gap between the header and the navigation */
+.dashboard-nav {
+  margin-top: 10px; /* Adjust this value to control the gap size */
+}
+
+/* Navigation Styles */
+.dashboard-nav {
+  flex-shrink: 0; /* Prevent nav from shrinking */
+  width: 100%; /* Ensure nav takes full width */
+}
+
+.dashboard-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers the navigation links */
+}
+
+.dashboard-nav li {
+  margin-right: 20px;
+}
+
+.dashboard-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.dashboard-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content Styles */
+.dashboard-content {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1; /* Ensures content takes up remaining space */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  width: 100%; /* Ensure content takes full width */
+}
+
+/* Footer Styles */
+.dashboard-footer {
+  background-color: #004d7a; /* Dark blue footer */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0; /* Prevent footer from shrinking */
+  margin-top: auto; /* Ensures footer stays at the bottom */
+  width: 100%; /* Ensure footer takes full width */
+}
+
+.dashboard-footer p {
+  margin: 0;
+}
+/* Logout Button */
+.logout-button {
+  background-color: #004d7a; /* Dark blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.logout-button:hover {
+  background-color: #00334e; /* Slightly darker blue on hover */
+}

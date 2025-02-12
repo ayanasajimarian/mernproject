@@ -1,0 +1,79 @@
+/* Scoped Styles for the Login Page */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background-image: url('https://i.pinimg.com/736x/d8/67/96/d867961d6b6e6322a17909b0f0c1522c.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-card {
+  background: #ffffff; /* White background for the card */
+  padding: 40px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0056b3; /* Blue heading */
+}
+
+.login-subheading {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.login-message {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: green; /* For success messages */
+}
+
+.login-message.error {
+  color: red; /* For error messages */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #0056b3; /* Blue focus border */
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #003f7f; /* Darker blue on hover */
+}
